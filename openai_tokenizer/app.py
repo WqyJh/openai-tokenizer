@@ -23,18 +23,18 @@ def read(*paths, **kwargs):
 
 
 description = """
-project_name API helps you do awesome stuff. 🚀
+openai_tokenizer API helps you do awesome stuff. 🚀
 """
 
 app = FastAPI(
-    title="project_name",
+    title="openai_tokenizer",
     description=description,
     version=read("VERSION"),
-    terms_of_service="http://project_name.com/terms/",
+    terms_of_service="http://openai_tokenizer.com/terms/",
     contact={
-        "name": "author_name",
-        "url": "http://project_name.com/contact/",
-        "email": "author_name@project_name.com",
+        "name": "WqyJh",
+        "url": "http://openai_tokenizer.com/contact/",
+        "email": "WqyJh@openai_tokenizer.com",
     },
     license_info={
         "name": "The Unlicense",

@@ -1,4 +1,4 @@
-"""Python setup.py for project_name package"""
+"""Python setup.py for openai_tokenizer package"""
 import io
 import os
 from setuptools import find_packages, setup
@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 def read(*paths, **kwargs):
     """Read the contents of a text file safely.
-    >>> read("project_name", "VERSION")
+    >>> read("openai_tokenizer", "VERSION")
     '0.1.0'
     >>> read("README.md")
     ...
@@ -30,17 +30,17 @@ def read_requirements(path):
 
 
 setup(
-    name="project_name",
-    version=read("project_name", "VERSION"),
-    description="project_description",
-    url="https://github.com/author_name/project_urlname/",
+    name="openai_tokenizer",
+    version=read("openai_tokenizer", "VERSION"),
+    description="Awesome openai_tokenizer created by WqyJh",
+    url="https://github.com/WqyJh/openai-tokenizer/",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
-    author="author_name",
+    author="WqyJh",
     packages=find_packages(exclude=["tests", ".github"]),
     install_requires=read_requirements("requirements.txt"),
     entry_points={
-        "console_scripts": ["project_name = project_name.__main__:main"]
+        "console_scripts": ["openai_tokenizer = openai_tokenizer.__main__:main"]
     },
     extras_require={"test": read_requirements("requirements-test.txt")},
 )
